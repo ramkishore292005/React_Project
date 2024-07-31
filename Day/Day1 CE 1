@@ -1,1 +1,19 @@
 
+import logo from './logo.svg';
+import './App.css';
+
+const alertMsg=()=>
+{
+    alert("Welcome");
+    console.log("React Application");
+}
+const Day1=()=>
+{
+    return (
+        <div>
+            <button onClick={alertMsg}>Click Me</button>
+        </div>    
+    )
+}
+
+export default Day1 ;
